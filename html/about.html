@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppBar and Drawer Example</title>
+    <link rel="stylesheet" href="../css/appbar.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/footer.css"> 
+    <link rel="stylesheet" href="/html/Events/appbar.css">
+    <link rel="stylesheet" href="../css/aboyt.css"> 
+
+</head>
+<body>
+
+  <header class="app-bar">
+    <div class="logo">
+        <a href="../html/HomePage.html"> <!-- Link that refreshes the web page -->
+            <img src="../image/photo_2024-08-21_21-18-12.jpg" alt="Website Logo"> <!-- Image logo -->
+        </a>
+    </div>
+    <nav class="nav-menu">
+      <a href="../html/HomePage.html">Home</a>
+      <a href="../html/Activaty.html">Activaty</a>
+      <a href="../html/member.html">Member</a>
+      <a href="../html/about.html">About</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+        &#9776;
+    </div>
+</header>
+
+    
+
+
+</div>
+
+<div class="container">
+    <h1>About Us</h1>
+   <h4>Founded in 2021, Radoz is an independent youth organization based in Sulaymaniyah, dedicated to empowering young people by enhancing their skills and abilities. We are committed to fostering personal growth through a range of impactful initiatives, including our flagship programs: the Space Event, Raz Event, and Debate Corner. Our mission is to create opportunities for youth to develop, connect, and contribute meaningfully to their communities.</h4>
+    
+    <div class="images">
+        <img src="../image/spacekaver.jpg" alt="Image 1">
+        
+    </div>
+<br>
+
+<script>
+  // Disable right-click
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
+
+  // Detect print screen key press (not very reliable)
+  document.addEventListener('keydown', function(e) {
+      if (e.key === 'PrintScreen') {
+          alert('Screenshot is not allowed!');
+          e.preventDefault();
+      }
+  });
+
+  // Dynamic overlay text to deter screenshots
+  setInterval(function() {
+      const overlay = document.getElementById('dynamicOverlay');
+      overlay.style.top = Math.random() * 100 + '%';
+      overlay.style.left = Math.random() * 100 + '%';
+  }, 1000);
+
+  // Detect screenshot attempt (basic detection)
+  const fullscreenOverlay = document.getElementById('fullscreenOverlay');
+  document.addEventListener('visibilitychange', function() {
+      if (document.hidden) {
+          fullscreenOverlay.style.display = 'block';
+      } else {
+          fullscreenOverlay.style.display = 'none';
+      }
+  });
+</script>
+  <br>
+
+<div class="counter-container">
+  <div class="counter-item">
+    <div class="counter-icon">
+      <i class="fa fa-laptop"></i>
+    </div>
+    <div class="counter-number" data-target="200">0</div>
+    <p>Job opportunities</p>
+  </div>
+  <div class="counter-item">
+    <div class="counter-icon">
+      <i class="fa fa-hourglass-half"></i>
+    </div>
+    <div class="counter-number" data-target="3">0</div>
+    <p>In Processes</p>
+  </div>
+  <div class="counter-item">
+    <div class="counter-icon">
+      <i class="fa fa-gift"></i>
+    </div>
+    <div class="counter-number" data-target="10">0</div>
+    <p>Awards Received</p>
+  </div>
+  <div class="counter-item">
+    <div class="counter-icon">
+      <i class="fa fa-smile"></i>
+    </div>
+    <div class="counter-number" data-target="20000">0</div>
+    <p>Participant All Activaty</p>
+  </div>
+</div>
+
+
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3>Raddoz Organization<span></span></h3>
+
+    <p class="footer-links">
+      <a href="../html/HomePage.html" class="link-1">Home</a>
+      
+      <a href="../html/Activaty.html">Activaty</a>
+
+      <a href="../html/member.html">Memberes</a>  
+    
+      <a href="../html/about.html">About</a>
+      
+    </p>
+
+
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p>Iraq,Kurdistan</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+1.555.555.5555</p>
+    </div>
+
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">radozorganization@gmail.com</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>Radoz Organization</span>
+      an independent youth organization, dedicated to empowering young people by enhancing their skills and abilities.
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="https://www.facebook.com/radozorganization"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/radozorganization/"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@radoz5427"><i class="fa fa-youtube"></i></a>
+     
+    </div>
+  
+    
+   
+</footer>
+
+
+  <script src="../js/appbar.js"></script>
+  <script src="../js/about.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppBar and Drawer Example</title>
+    <link rel="stylesheet" href="../css/appbar.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/footer.css"> 
+    <link rel="stylesheet" href="../css/aboyt.css"> 
+</head>
+<body>
+
+  <header class="app-bar">
+    <div class="logo">
+        <a href="../html/HomePage.html"> <!-- Link that refreshes the web page -->
+            <img src="../image/logo.png" alt="Website Logo"> <!-- Image logo -->
+        </a>
+    </div>
+    <nav class="nav-menu">
+      <a href="../html/HomePage.html">Home</a>
+      <a href="../html/Activaty.html">Activaty</a>
+      <a href="../html/member.html">Member</a>
+      <a href="../html/about.html">About</a>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+        &#9776;
+    </div>
+</header>
+
+    
+
+
+</div>
+
+<div class="container">
+    <h1>Event_Raz</h1>
+   <h4>Radoz's Raz
+    In order to continue its work and activities while serving Kurdistan, Radoz Organisation is organising a charity campaign known as Raz Event during the holy month of Ramadan. The campaign will be held in Erbil and Sulaimani with speakers and celebrities participating. These events, which are free and open to the public at no cost, help to increase the impact of the campaign by providing a variety of activities that benefit individuals and young people, especially during the month of Ramadan. Event revenue, which comes from sponsors or public contributions, goes directly to funds that help poor families and orphans..</h4>
+    
+    <div class="images">
+        <img src="../image/Event/Event Raz/3.jpg" alt="Image 1">
+        
+    </div>
+    <br>
+    <div class="images">
+      <img src="../image/Event/Event Raz/9.JPG" alt="Image 1">
+      
+  </div>
+  <br>
+  <div class="images">
+    <img src="../image/Event/Event Raz/10.JPG" alt="Image 1">
+    
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/8.JPG" alt="Image 1">
+  
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/7.JPG" alt="Image 1">
+  
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/1.JPG" alt="Image 1">
+  
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/2.JPG" alt="Image 1">
+  
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/5.JPG" alt="Image 1">
+  
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/4.JPG" alt="Image 1">
+  
+</div>
+<br>
+<div class="images">
+  <img src="../image/Event/Event Raz/6.JPG" alt="Image 1">
+  
+</div>
+<br>
+
+<script>
+  // Disable right-click
+  document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+  }, false);
+
+  // Detect print screen key press (not very reliable)
+  document.addEventListener('keydown', function(e) {
+      if (e.key === 'PrintScreen') {
+          alert('Screenshot is not allowed!');
+          e.preventDefault();
+      }
+  });
+
+  // Dynamic overlay text to deter screenshots
+  setInterval(function() {
+      const overlay = document.getElementById('dynamicOverlay');
+      overlay.style.top = Math.random() * 100 + '%';
+      overlay.style.left = Math.random() * 100 + '%';
+  }, 1000);
+
+  // Detect screenshot attempt (basic detection)
+  const fullscreenOverlay = document.getElementById('fullscreenOverlay');
+  document.addEventListener('visibilitychange', function() {
+      if (document.hidden) {
+          fullscreenOverlay.style.display = 'block';
+      } else {
+          fullscreenOverlay.style.display = 'none';
+      }
+  });
+</script>
+  
+<hr>
+<div class="endd">
+    <h4>@Raddoz Organization</h4>
+    
+
+    </div>
+
+  <script src="../js/appbar.js"></script>
+</body>
+</html>

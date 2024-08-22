@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppBar and Drawer Example</title>
+    <link rel="stylesheet" href="../css/HomePage.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/appbar.css">
+    <link rel="stylesheet" href="../css/title.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header class="app-bar">
+        <div class="logo">
+            <a href="../html/HomePage.html"> <!-- Link that refreshes the web page -->
+                <img src="../image/photo_2024-08-21_21-18-12.jpg" alt="Website Logo"> <!-- Image logo -->
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <a href="#">Home</a>
+            <a href="../html/Activaty.html">Activaty</a>
+            <a href="../html/member.html">Member</a>
+            <a href="../html/about.html">About</a>
+            
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+    </header>
+
+    
+</div>
+<!-- Image Slider -->
+<div class="slider">
+    <div class="slides">
+        <div class="slide fade">
+            <img src="../image/spacekaver.jpg" alt="Slide 1">
+        </div>
+        <div class="slide fade">
+            <img src="../image/Event/Event Raz/6.JPG" alt="Slide 2">
+        </div>
+        <div class="slide fade">
+            <img src="../image/three.JPG" alt="Slide 3">
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br>
+
+
+<div class="content-containerr">
+    <h2 id="title">Radoz organization</h2>
+    <h5 id="description">
+       
+        Radoz is an independent organization in Sulaymaniyah committed to empowering youth by fostering their skills and talents
+    </h5>
+    <div class="actions">
+        <div class="action" id="action1">
+            <span class="action-icon">✔️</span> Become a Volunteer
+        </div>
+        <div class="action" id="action2">
+            <span class="action-icon">✔️</span> Empower Yourself
+        </div>
+        <div class="action" id="action3">
+            <span class="action-icon">✔️</span> Enrich Kurdistan
+        </div>
+    </div>
+
+    <br>
+    <br>
+   
+</div>
+
+
+
+<div class="events-section">
+    <h1>Latest Activity</h1>
+    <div class="event-card">
+        <div class="event-image">
+            <br>
+            <img src="../image/Event/Space 1/10.jpg" alt="Hitex Event Poster">
+        </div>
+        <div class="event-details">
+            <h3>Spase 2</h3>
+            <p><span class="location">📍 Sulaimany</span> <span class="category">📦 Spase 2</span></p>
+            <p><span class="date">2022/3/18 3:00 PM</span></p>
+            <p><strong>Requested Skills:</strong> Team Building - Communication skills</p>
+            <p>By Radoz Organization</p>
+            <br>
+            <!-- Using an anchor tag -->
+            <a href="../html/Event_space1.html" class="show-button">Show</a>
+            <!-- Or using a button with JavaScript -->
+            <!-- <button class="show-button" onclick="location.href='your-target-page.html'">Show</button> -->
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="events-section">
+  
+    <div class="event-card">
+        <div class="event-image">
+            <br>
+            <img src="../image/three.JPG" alt="Hitex Event Poster">
+        </div>
+        <div class="event-details">
+            <h3>Spase 2</h3>
+            <p><span class="location">📍 Sulaimany</span> <span class="category">📦 Spase 2</span></p>
+            <p><span class="date">2024/2/24 3:00 PM</span></p>
+            <p><strong>Requested Skills:</strong> Team Building - Communication skills</p>
+            <p>By Radoz Organization</p>
+            <br>
+            <!-- Using an anchor tag -->
+            <a href="../html/Event_space 2.html" class="show-button">Show</a>
+            <!-- Or using a button with JavaScript -->
+            <!-- <button class="show-button" onclick="location.href='your-target-page.html'">Show</button> -->
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="events-section">
+    <div class="event-card">
+        <div class="event-image">
+            <br>
+            <img src="../image/Debate/Shakar.png" alt="Hitex Event Poster">
+        </div>
+        <div class="event-details">
+            <h3>Debate</h3>
+            <p><strong>Title:</TiTle></strong> The impact of your beliefs On your behavior</p>
+            <p><strong>Preacher:</TiTle></strong> Dr. Shkar Aziz</p>
+            <p>By Radoz Organization</p>
+            <br>
+            <!-- Using an anchor tag -->
+            <a href="https://www.youtube.com/watch?v=XQnaoePA-SY" class="show-button">Show</a>
+            <!-- Or using a button with JavaScript -->
+            <!-- <button class="show-button" onclick="location.href='your-target-page.html'">Show</button> -->
+        </div>
+    </div>
+</div>
+    <br>
+    <br>
+
+
+</div>
+<br>
+<br>
+<div class="button-container">
+    <a href="../html/Activaty.html" class="link-button">See The More Activity ...</a>
+</div>
+
+<br>
+<br>
+
+
+
+<div class="events-section">
+    <h1>The Memberes</h1>
+    <div class="event-card">
+        <div class="event-image">
+            <img src="../image/member/hama.png" alt="Hitex Event Poster">
+        </div>
+        <div class="event-details">
+            <h3>Muhammad Afande</h3>
+            <p><span class="location">👤 Administrator Organization</span> 
+         <br>
+            <br>
+            <!-- Using an anchor tag -->
+           
+            <!-- Or using a button with JavaScript -->
+            <!-- <button class="show-button" onclick="location.href='your-target-page.html'">Show</button> -->
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="events-section">
+    <div class="event-card">
+        <div class="event-image">
+            <img src="../image/member/hamayshex.JPG" alt="Hitex Event Poster">
+        </div>
+        <div class="event-details">
+            <h3>Muhammad Shex Jamal</h3>
+            <p><span class="location">👤 Photographer Organization</span> 
+         <br>
+            <br>
+           
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="events-section">
+    
+    <div class="event-card">
+        <div class="event-image">
+            <img src="../image/member/kave.jpg" alt="Hitex Event Poster">
+        </div>
+        <div class="event-details">
+            <h3>Kavi Abdullah </h3>
+            <p><span class="location">👤 Member Organization</span> 
+         <br>
+            
+        
+        </div>
+    </div>
+</div>
+    
+
+</div>
+<br>
+<br>
+<div class="button-container">
+    <a href="../html/member.html" class="link-button">See All Meamber</a>
+</div>
+
+<br>
+<br>
+
+
+<script>
+    // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    }, false);
+  
+    // Detect print screen key press (not very reliable)
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'PrintScreen') {
+            alert('Screenshot is not allowed!');
+            e.preventDefault();
+        }
+    });
+  
+    // Dynamic overlay text to deter screenshots
+    setInterval(function() {
+        const overlay = document.getElementById('dynamicOverlay');
+        overlay.style.top = Math.random() * 100 + '%';
+        overlay.style.left = Math.random() * 100 + '%';
+    }, 1000);
+  
+    // Detect screenshot attempt (basic detection)
+    const fullscreenOverlay = document.getElementById('fullscreenOverlay');
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            fullscreenOverlay.style.display = 'block';
+        } else {
+            fullscreenOverlay.style.display = 'none';
+        }
+    });
+  </script>
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Raddoz Organization<span></span></h3>
+
+      <p class="footer-links">
+        <a href="../html/HomePage.html" class="link-1">Home</a>
+        
+        <a href="../html/Activaty.html">Activaty</a>
+
+        <a href="../html/member.html">Memberes</a>  
+      
+        <a href="../html/about.html">About</a>
+        
+      </p>
+
+
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p>Iraq,Kurdistan</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+1.555.555.5555</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">radozorganization@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Radoz Organization</span>
+        an independent youth organization, dedicated to empowering young people by enhancing their skills and abilities.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.facebook.com/radozorganization"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/radozorganization/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@radoz5427"><i class="fa fa-youtube"></i></a>
+       
+      </div>
+    
+      
+     
+  </footer>
+<script src="../js/title.js"></script>
+<script src="../js/appbar.js"></script>
+<script src="../js/slider.js"></script>
+</body>
+</html>
+

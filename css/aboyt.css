@@ -1,0 +1,83 @@
+body {
+   
+
+    background-color: #f4f4f4;
+}
+
+.container {
+   background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #421E84;
+}
+
+h4{
+    text-align: justify;
+    line-height: 1.6;
+    color:black;padding: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images img {
+    width: 100%; /* Makes the image take up the full width of its container */
+    max-width: 600px; /* Limits the maximum width of the image */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .images img {
+        max-width: 100%; /* Makes the image full width on smaller screens */
+    }
+}
+
+
+.endd {
+    
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-family: Arial, sans-serif;
+   
+}
+
+
+
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 40px;
+  }
+  
+  .counter-item {
+    text-align: center;
+  }
+  
+  .counter-icon i {
+    font-size: 40px;
+    color: #421E84;
+  }
+  
+  .counter-number {
+    font-size: 40px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+  }

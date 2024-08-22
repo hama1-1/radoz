@@ -1,0 +1,122 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+h4 {
+    text-align: justify;
+    line-height: 1.6;
+    color: black;
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    gap: 10px; /* Adds spacing between the images */
+}
+
+.images img {
+    max-width: 100%;
+    height: 450;
+    flex: 50; /* Ensures the images take up equal space in the row */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column; /* Changes the flex direction to column */
+        gap: 15; /* Removes gap for stacked images */
+    }
+}
+
+.events-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #421E84;
+}
+
+.event-card {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.event-image img {
+    width: 250px;
+    height: auto;
+}
+
+.event-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.event-details h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.event-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.event-details .location,
+.event-details .category,
+.event-details .date {
+    display: inline-block;
+    margin-right: 10px;
+    color: #777;
+}
+
+.show-button {
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.show-button:hover {
+    background-color: #4a148c;
+}
+
+
+
+.button-container {
+    text-align: center; /* Center the button horizontally */
+}
+
+.endd {
+    
+ }
+ 
+ h4{
+     text-align: center;
+     color: black;
+     
+ }

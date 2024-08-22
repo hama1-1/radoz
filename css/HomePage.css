@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+.slider {
+    
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd; /* Optional: border around the slider */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+}
+
+.slides {
+    
+    display: flex;
+    transition: transform 0.6s ease-in-out; /* Smooth transition */
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    display: block; /* Remove extra space below image */
+    border-radius: 8px; /* Optional: rounded corners for images */
+}
+
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+.events-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #421E84;
+}
+
+.event-card {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.event-image img {
+    width: 250px;
+    height: auto;
+}
+
+.event-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.event-details h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.event-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.event-details .location,
+.event-details .category,
+.event-details .date {
+    display: inline-block;
+    margin-right: 10px;
+    color: #777;
+}
+
+.show-button {
+    background-color: #421E84;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.show-button:hover {
+    background-color: #6546AE;
+}
+
+
+
+.button-container {
+    text-align: center; /* Center the button horizontally */
+}
+
+.link-button {
+    display: inline-block;
+    background-color: #421E84; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.link-button:hover {
+    background-color: #6546AE; /* Darker blue on hover */
+}
+
+
+
+
+#google_translate_element {
+    margin-top: 20px; /* Adjust the margin */
+    text-align: right; /* Position the dropdown to the right */
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important; /* Hides the top banner that appears */
+}
+
+body {
+    top: 0px !important;
+}
+
+/* Customize the dropdown button */
+.goog-te-gadget-simple {
+    background-color: #f5f5f5;
+    border: 1px solid #d5d5d5;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Dropdown arrow */
+.goog-te-gadget-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4c/Google_Translate_logo.svg');
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
